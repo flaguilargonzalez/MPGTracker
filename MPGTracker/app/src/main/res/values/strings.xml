@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MPG Tracker</string>
+    <string name="txtSplash">MPG Tracker</string>
+    <string name="txtTitle">MPG Tracker</string>
+    <string name="txtTitleDate">Date</string>
+    <string name="txtTitleMilesTraveled">Miles Traveled</string>
+    <string name="txtTitleQuantity">Quantity</string>
+    <string name="txtTitlePriceGal">Price/gal</string>
+    <string name="txtMilesAbbv">mi</string>
+    <string name="txtGallonsAbbv">gal</string>
+    <string name="txtUSDAbbv">USD</string>
+    <string name="txtAvgMPG">AVG MPG</string>
+    <string name="txtCalcMPG">Calculate MPG</string>
+    <string name="txtClear">Clear</string>
+    <string name="txtViewMPGHistory">View MPG History</string>
+    <string name="txtViewInstructions">View Instructions</string>
+    <string name="txtFullInstructions">Instructions:\n\ 1. Fill up your car\'s gas tank all the way.\n\ 2. If your car has a trip odometer, reset it, or record the master odometer mileage.\n\ 3. Drive your car as you normally would, and let your gas tank deplete to at least a half of a tank of gas.\n\ 4. Get to the gas station and fill your tank again.\n\ 5. Record the amount of gas it took to refill the tank.\n\ 6. Record the elapsed trip miles or new odometer mileage.\n\ 7. Enter the information in the app and click on the calculate button.</string>
+    <string name="txtTitleInstructions">Instructions</string>
+    <string name="txtReturn">Return</string>
+    <string name="txtTitleHistory">MPG History</string>
+    <string name="txtHistoryDate">Date</string>
+    <string name="txtHistoryGallons">Gallons</string>
+    <string name="txtHistoryPrice">Price</string>
+    <string name="txtHistoryMPG">MPG</string>
+    <string name="txtPrint">Print</string>
+    <string name="txtAvgMpgResult">00</string>
+    <string name="txtHintUSD">Enter Price USD</string>
+    <string name="txtHintGallons">Enter #Gals</string>
+    <string name="txtHintMiles">Enter #Miles</string>
+    <string name="txtClearHistory">Clear History</string>
+</resources>

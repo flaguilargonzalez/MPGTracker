@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.androidbootcamp.mpgtracker.MPGHistoryActivity">
+
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="600dp"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgLogo"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/imgLogo"
+            android:layout_toRightOf="@+id/imgLogo"
+            android:text="@string/txtTitle"
+            android:textColor="#7F0000"
+            android:textSize="45sp"
+            tools:text="@string/txtTitle" />
+
+        <Button
+            android:id="@+id/btnPrint"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/txtTitle"
+            android:layout_alignRight="@+id/txtTitle"
+            android:layout_alignTop="@+id/btnReturn"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/txtPrint"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="219dp"
+            tools:layout_editor_absoluteY="517dp"
+            tools:text="@string/txtPrint" />
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="19dp"
+            android:text="@string/txtReturn"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="517dp"
+            tools:text="@string/txtReturn"
+            android:layout_below="@+id/tableLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" />
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="350dp"
+            android:layout_height="375dp"
+            android:layout_marginTop="10dp"
+            android:padding="2dp"
+            android:layout_below="@+id/imgLogo"
+            android:layout_alignLeft="@+id/btnReturn"
+            android:layout_alignStart="@+id/btnReturn"></TableLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
